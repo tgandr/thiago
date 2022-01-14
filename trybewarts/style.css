@@ -105,6 +105,10 @@ footer {
   padding: 5px;
 }
 
+#agreement {
+  padding: 10px 0px;
+}
+
 /* ! O código foi desenvolvido em call do Zoom onde Kleverson e Thiago desenvolveram
 a lógica e como seria implementava no código, e o Thiago escrevia o código e fazia os
 commits por ter criado a branch principal do PR */

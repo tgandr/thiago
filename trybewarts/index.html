@@ -69,21 +69,34 @@
               >Qual conteúdo você está com mais vontade de aprender?</label
             >
             <div>
-              <input class="subject" type="checkbox" value="HoFs" /> HoFs
+              <label for="HoFs">
+                <input class="subject" type="checkbox" id="HoFs" value="HoFs" /> HoFs
+              </label>
             </div>
             <div>
-              <input class="subject" type="checkbox" value="Jest" /> Jest
+              <label for="Jest">
+                <input class="subject" type="checkbox" id="Jest" value="Jest" /> Jest
+              </label>
             </div>
             <div>
-              <input class="subject" type="checkbox" value="Promises" />
-              Promises
+              <label for="Promises">
+                <input class="subject" type="checkbox" id="Promises" value="Promises" /> Promises
+              </label>
             </div>
             <div>
-              <input class="subject" type="checkbox" value="React" /> React
+              <label for="React">
+                <input class="subject" type="checkbox" id="React" value="React" /> React
+              </label>
             </div>
-            <div><input class="subject" type="checkbox" value="SQL" /> SQL</div>
             <div>
-              <input class="subject" type="checkbox" value="Python" /> Python
+              <label for="SQL">
+                <input class="subject" type="checkbox" id="SQL" value="SQL" /> SQL
+              </label>
+            </div>
+            <div>
+              <label for="Python">
+                <input class="subject" type="checkbox" id="Python" value="Python" /> Python
+              </label>
             </div>
             <br>
           </div>
@@ -113,11 +126,11 @@
             ></textarea>
             <span id="counter">500</span>
           </div>
-          <div>
-            <input type="checkbox" id="agreement" />
-            <label for="agreement" id="label-infos"
-              >Você concorda com o uso das informações acima?</label
-            >
+          <div id="agreement">
+            <input type="checkbox"  />
+            <label for="agreement" id="label-infos">
+              Você concorda com o uso das informações acima?
+            </label>
           </div>
           <div>
             <button type="submit" id="submit-btn">Enviar</button>
