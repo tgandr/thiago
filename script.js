@@ -1,6 +1,10 @@
-let changePict=document.querySelectorAll(".btn")
+let changePict = document.querySelector(".frame")
 
-changePict.onclick = changePic
-function changePic(obj) {
-    console.log("test")
+changePict.addEventListener("mouseover", changeP)
+function changeP(obj) {
+    let changePict2 = obj.target.innerText
+    if (changePict2 == "ZOOTECNIA") {
+        changePict.style.backgroundColor = "blue";
+        console.log("true")
+    }
 }
