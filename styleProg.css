@@ -9,10 +9,6 @@ a {
   text-decoration: none;
 }
 
-a :visited {
-  text-decoration: none;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -33,6 +29,7 @@ section {
   color: white;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 75px;
   width: 100%;
 }
@@ -78,4 +75,16 @@ section {
 .trybewarts {
   background-color: #191c03;
   color: white;
+}
+
+.card_pubs {
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  font-size: 20px;
 }
