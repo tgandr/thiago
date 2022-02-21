@@ -28,12 +28,18 @@ nav {
   font-family: 'Open Sans', sans-serif;
   align-self: center;
   margin-right: 20px;
+  font-size: x-large;
 }
 
 .upperBar p {
   color: white;
   padding: 10px;
   opacity: 0.6;
+}
+
+.upperBar hr {
+  height: 50px;
+  align-self: center;
 }
 
 .btn {

@@ -8,7 +8,3 @@ document.addEventListener('mouseover', (elem) => {
     background.style.backgroundImage = "url('https://miro.medium.com/max/1400/0*Wz93rPzLLTq1VwVW')"
   }
 });
-
-/* window.onload = () => {
-  changeBackGroundImage();
-};  */
