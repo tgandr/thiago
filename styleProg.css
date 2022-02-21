@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Epilogue, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  border: solid 2px green;
+  border-radius: 10px;
+  width: 250px;
+  margin: 5px;
+}
+
+.card p {
+  padding: 20px;
+  align-self: baseline;
+}
+
+.shopping_cart {
+  font-size: 40px;
+}
+
+.trybewarts{
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}

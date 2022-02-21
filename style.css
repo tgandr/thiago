@@ -76,6 +76,16 @@ a{
   text-decoration: none;   
 }
 
+a :active {
+  text-decoration: none;  
+}
+
 .btn_aquic {
   
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
