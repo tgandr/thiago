@@ -6,13 +6,31 @@
     font-size: 100%;
   }
 
+nav {
+  display: flex;
+}
+
 section {
   display: flex;
   justify-content: center;
 }
 
-nav {
+header{
+
+}
+
+a{
+  text-decoration: none;   
+}
+
+a :active {
+  text-decoration: none;  
+}
+
+footer p {
   display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .upperBar {
@@ -68,24 +86,6 @@ nav {
     margin-top: 10px;
 }
 
-header{
-
-}
-
-a{
-  text-decoration: none;   
-}
-
-a :active {
-  text-decoration: none;  
-}
-
 .btn_aquic {
   
-}
-
-footer p {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
 }
