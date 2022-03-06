@@ -6,17 +6,11 @@
     font-size: 100%;
   }
 
-nav {
+article {
+  align-items: center;
   display: flex;
-}
-
-section {
-  display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-
-header{
-
 }
 
 a{
@@ -27,10 +21,28 @@ a :active {
   text-decoration: none;  
 }
 
+/* header{
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+} */
+
+nav {
+  display: flex;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
 footer p {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+
+.home {
+  width: 100%;
 }
 
 .upperBar {
@@ -64,31 +76,86 @@ footer p {
 }
 
 .btn {
-    background-color: #191c03;
-    cursor: pointer;
-    opacity: 90%;
-    padding: 20px ;
-    border-radius: 8px;
-    border: 2px solid white;
-    color: white;
-    text-transform: uppercase;
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-  }
-
-.frame{
-    background-size: cover;
-    width: 80%;
-    height: 400px;
-    display: flex;
-    justify-content: center;   
-    flex-direction: column;
-    align-items: center;
-    background-image: url('https://revistavetshare.com.br/wp-content/uploads/2021/10/shutterstock_1915187485.jpg');
-    margin-top: 10px;
+  background-color: #191c03;
+  cursor: pointer;
+  opacity: 90%;
+  padding: 20px ;
+  border-radius: 8px;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
 }
 
-.btn_aquic {
-  
+.frame {
+  background-size: cover;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: center;   
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://revistavetshare.com.br/wp-content/uploads/2021/10/shutterstock_1915187485.jpg');
+  /* margin-top: 10px; */
+}
+
+.displayPubs {
+  background-image: url('https://www.meatpoultrynutrition.org/sites/default/files/nutrition/library.jpg');
+  height: 400px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.cardsDisplay {
+  align-content: center;
+  border-top: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.pubsTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pubsTitleText {
+  align-items: flex-end;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pubsTitleText h1 {
+  font-size: large;
+}
+
+.displayCodes {
+  background-image: url('https://miro.medium.com/max/1400/0*Wz93rPzLLTq1VwVW');
+  height: 400px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.closeButton {
+  align-items: center;
+  background-color: #191c03;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  margin: auto;
+  width: 25px;  
+}
+
+.closeButton:hover {
+  cursor: default;
 }
