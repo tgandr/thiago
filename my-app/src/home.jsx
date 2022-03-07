@@ -37,12 +37,14 @@ class Home extends React.Component {
               </div> */}
               <div 
                 className="btn btn_arts"
+                id="showPubs"
                 onClick={ page }
               >
                 <p id="showPubs">Publicações</p>
               </div>
               <div 
                 className="btn btn_prog"
+                id="showCodes"
                 onClick={ page }
               >
               <p id="showCodes">Programação</p>

@@ -23,7 +23,6 @@ class App extends React.Component{
   }
 
   close = (event) => {
-    console.log(event.target.id)
     this.setState({ [event.target.id]: false, showHome: true })
   }
 

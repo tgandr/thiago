@@ -23,30 +23,34 @@ class Codes extends React.Component {
           </span>
         </div>
         <div className="cardsDisplay">
-          <a href="https://tgandr.github.io/pages/shopping/index.html">
+          <a 
+            href="https://tgandr.github.io/pages/shopping/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="card">
               <BsCart2 />
               <p>Shopping Cart</p>
             </div>
           </a>
-          <a href="https://tgandr.github.io/pages/trybewarts/index.html">
+          <a 
+            href="https://tgandr.github.io/pages/trybewarts/index.html"
+            target="_blank"
+            rel="noopener noreferrer"  
+          >
             <div className="card">
               <GiMagicBroom />
               <p>Trybewarts</p>
             </div>
           </a>
-          <a href="">
-            <div className="card">
-              <GiSolarSystem />
-              <p>Sistema Solar</p>
-            </div>
-          </a>
-          <a href="">
-            <div className="card">
-              <GiCardRandom />
-              <p>Trunfo</p>
-            </div>
-          </a>
+          <div className="card">
+            <GiSolarSystem />
+            <p>Sistema Solar</p>
+          </div>
+          <div className="card">
+            <GiCardRandom />
+            <p>Trunfo</p>
+          </div>
         </div>
       </div>
     )
