@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: Epilogue, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upperTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
+  background-color: #191c03;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+}
+
+.upperTitle h1 {
+  align-self: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: solid 2px green;
+  border-radius: 10px;
+  width: 250px;
+  margin: 5px;
+}
+
+.card p {
+  align-self: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.card img {
+  padding-top: 10px;
+  width: 40px;
+}
+
+.card i {
+  padding-top: 10px;
+  width: 40px;
+  align-self: center;
+}
+
+.shopping_cart {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+}
+
+.trybewarts {
+  background-color: #191c03;
+  color: white;
+}
+
+.card_pubs {
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  font-size: 20px;
+}
